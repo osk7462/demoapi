@@ -152,7 +152,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ORIGIN_ORIGINS= [
-    # "http://localhost:3000",
+    "http://localhost:3000",
     "https://osk7462.netlify.app/",
 ]
 
