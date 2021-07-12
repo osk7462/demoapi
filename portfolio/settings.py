@@ -31,7 +31,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://demo-osk7462.herokuapp.com/',
-    "https://osk7462.netlify.app/",
 ]
 
 
@@ -139,10 +138,23 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS_ORIGIN_WHITELIST= [
-#     # "http://localhost:3000",
-#     "https://osk7462.netlify.app/",
-# ]
+
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+CORS_ORIGIN_ORIGINS= [
+    # "http://localhost:3000",
+    "https://osk7462.netlify.app/",
+]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
