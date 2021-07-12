@@ -31,6 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://demo-osk7462.herokuapp.com/',
+    "https://osk7462.netlify.app/",
 ]
 
 
