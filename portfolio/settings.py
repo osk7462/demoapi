@@ -34,8 +34,6 @@ ALLOWED_HOSTS = [
     'http://localhost:3000',
     "https://osk7462.netlify.app/",
 ]
-    
-]
 
 
 # Application definition
